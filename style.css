@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 0 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 64px 0;
+}
+
+.header h3 {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.title-div {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    min-width: 700px;
+}
+
+.title {
+    width: 400px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: 'Coda', cursive;
+}
+
+.title p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.logo-img {
+    width: 500px;
+    height: auto;
+    align-self: center;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.monkey-profiles {
+    text-align: center;
+}
+
+.monkey-profiles h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.monkey-chart {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-bottom: 30px;
+}
+
+.monkey-text {
+    font-size: 14px;
+    width: 200px;
+    font-family: monospace;
+}
+
+.monkey img {
+    width: 200px;
+}
+
+.nim-quote {
+    background-color: #e5e7eb;
+    padding: 64px 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    magrin: 0;
+}
+
+.quote p:first-child {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.quote p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+.blue-part {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 10%;
+    padding: 32px 8%;
+    color: white;
+}
+
+.blue-part-text h3, .blue-part-text p {
+    margin: 0;   
+}
+
+.donate-button {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
