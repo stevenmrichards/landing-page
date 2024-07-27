@@ -116,7 +116,7 @@ button {
 }
 
 .quote p {
-    magrin: 0;
+    margin: 0;
 }
 
 .quote p:first-child {
